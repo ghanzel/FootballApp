@@ -71,6 +71,19 @@ li {
   margin: 10px;
 }
 
+/* CREATE MATCH */
+
+.match-popup {
+  position: absolute;
+  left: 15%;
+  right: 45%;
+  top: 25%;
+  margin: 20px auto;
+
+  background-color: white;
+  padding: 50px;
+}
+
 /* RESPONSIVENESS */
 
 @media only screen and (max-width: 768px) {
