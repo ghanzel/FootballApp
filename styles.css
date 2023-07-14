@@ -79,7 +79,7 @@ li {
   right: 45%;
   top: 25%;
   margin: 20px auto;
-
+  border: 5px gray solid;
   background-color: white;
   padding: 50px;
 }
@@ -95,4 +95,33 @@ li {
     width: 100%;
     margin-top: 60px;
   }
+  .match-popup {
+    right: 15%;
+  }
+}
+
+/* SELECTION */
+
+.container-selection {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 50px;
+}
+
+.players-section {
+  flex-basis: 33%;
+  margin: 0 25px;
+  text-align: center;
+}
+
+.team > div {
+  background-color: green;
+  border: black solid 1px;
+  border-radius: 15%;
+  margin: 1px;
+}
+
+h4 {
+  margin-bottom: 20px;
 }
