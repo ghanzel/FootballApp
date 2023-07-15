@@ -116,7 +116,6 @@ li {
 }
 
 .team > div {
-  background-color: green;
   border: black solid 1px;
   border-radius: 15%;
   margin: 1px;
@@ -124,4 +123,17 @@ li {
 
 h4 {
   margin-bottom: 20px;
+}
+
+.empty {
+  background-color: gray;
+}
+
+.selected {
+  background-color: green;
+}
+
+#finalise-btn {
+  display: block;
+  margin: 0 auto;
 }
