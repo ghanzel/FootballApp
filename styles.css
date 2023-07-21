@@ -129,11 +129,19 @@ h4 {
   background-color: gray;
 }
 
-.selected {
+.selected-green {
   background-color: green;
+}
+.selected-red {
+  background-color: red;
 }
 
 #finalise-btn {
   display: block;
   margin: 0 auto;
+}
+
+.player {
+  border: 1px black solid;
+  margin: 3px;
 }
